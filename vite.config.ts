@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  // This line tells Vite to append /Portfolio/ to your assets
-  base: "/Portfolio/", 
+  // Change this to a single slash for apex domain root handling
+  base: "/", 
   server: {
     host: "::",
     port: 8080,
