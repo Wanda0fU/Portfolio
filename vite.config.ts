@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  base: "/", 
+  // This line tells Vite to append /Portfolio/ to your assets
+  base: "/Portfolio/", 
   server: {
     host: "::",
     port: 8080,
